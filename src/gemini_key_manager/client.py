@@ -5,12 +5,12 @@ import re
 from typing import Dict, List, Optional, Tuple, Any
 from enum import Enum
 
-from config import ManagerConfig, ModelConfig
-from exceptions import (
+from gemini_key_manager.config import ManagerConfig, ModelConfig
+from gemini_key_manager.exceptions import (
     NoAvailableKeysError, InvalidModelError, 
     AuthenticationError, ServerError, RateLimitError
 )
-from models import KeyState
+from gemini_key_manager.models import KeyState
 
 logger = logging.getLogger(__name__)
 

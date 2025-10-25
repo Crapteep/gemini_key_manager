@@ -1,8 +1,8 @@
 import asyncio
 import logging
 from typing import List
-from config import ManagerConfig, KeyConfig, ModelConfig, HTTPConfig, RetryConfig
-from adapter import ManagedGenAIClient
+from gemini_key_manager.config import ManagerConfig, KeyConfig, ModelConfig, HTTPConfig, RetryConfig
+from gemini_key_manager.adapter import ManagedGenAIClient
 
 logging.basicConfig(
     level=logging.INFO,

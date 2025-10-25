@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from typing import Optional, Dict, Any
 from collections import deque
 
-from config import KeyConfig
+from gemini_key_manager.config import KeyConfig
 
 
 @dataclass

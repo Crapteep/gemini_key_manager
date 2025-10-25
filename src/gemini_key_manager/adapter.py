@@ -15,9 +15,9 @@ from google.genai.types import (
     Tool,
 )
 
-from client import GeminiKeyManager
-from config import ManagerConfig
-from exceptions import (
+from gemini_key_manager.client import GeminiKeyManager
+from gemini_key_manager.config import ManagerConfig
+from gemini_key_manager.exceptions import (
     MaxRetriesExceededError, 
     RateLimitError, 
     NoAvailableKeysError,
