@@ -23,13 +23,6 @@ This project uses **Poetry** for dependency management and packaging.
 poetry install
 ```
 
-If you prefer, you can also install dependencies manually:
-
-```bash
-pip install pydantic httpx
-```
-
-*(Note: As this is a custom library, you would typically install it from a git repository or a private package index.  
 For local use, just save the library code in a `gemini_manager/` directory and install with Poetry as shown above.)*
 
 ## Usage
