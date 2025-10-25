@@ -5,7 +5,8 @@ description = "A resilient Gemini API key manager with failover and scheduling."
 authors = ["Crapteep"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "src" }]
+packages = [{ include = "gemini_key_manager", from = "src" }]
+
 
 
 [tool.poetry.dependencies]
