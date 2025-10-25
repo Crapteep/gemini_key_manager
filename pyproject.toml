@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gemini-key-manager"
+name = "gemini_key_manager"
 version = "0.1.0"
 description = "A resilient Gemini API key manager with failover and scheduling."
 authors = ["Crapteep"]
